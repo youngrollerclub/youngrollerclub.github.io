@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>youngroller</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../index.html">Accueill</a>
+  <a href="index_services.html">Nos Services</a>
+  <a href="index_contact.html">Nous Contactez</a>
+  <a href="index_history.html">À Propos</a>
+  <img id="yrc_icon" src="../data/images/yrc_logo.jpg" alt="yrc logo">
+  
+</div>
+<section id="corps">
+<div id="main">
+  <h1>YOUNG ROLLER CLUB</h1><br>
+  <h2 id="h2_prest">Nos prestations:</h2>
+  <ul>
+  <li class="serv">Formation en patinage à roulettes</li>
+  <li class="serv">Spots publicitaires</li>
+  <li class="serv">Décoration clips</li>
+  <li class="serv">Cérémonie de mariage</li>
+  <li class="serv">Carnaval et Exhibition</li>
+  </ul>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+
+<p><br><br><br><br><br><br><br><br><br><br></p>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<div id="bottom_underline"> </div>
+<footer id="pied">
+<p id="paral">(2021) Tout droits réservés</p>
+</footer>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+</html> 
+
